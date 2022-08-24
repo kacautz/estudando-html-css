@@ -4,40 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário de Cadastro</title>
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Extrapole o mundo das ideias!</h1>
-    <div class="create-box">
-        <h2>Cadastre-se!</h2>
+    <div class="faixa">
+        <img class="faixa-imagem" src="img/logo.png" alt="Logo de Kássia Taíssa">
+        <h2></h2>
+
+    </div>
+    <div class="container">
+        <div class="form-image">
+            <img src="img/7450332.jpg">
+        </div>
+    </div>
+    <div class="form">
+        <form action="#">
+            <div class="form-header">
+                <div class="title">
+                    <h1>CADASTRE-SE</h1>
+                </div>
+            
+                </div>
+
+    <div class="create-box-container">
+        <h2></h2>
         <form> 
             <div class="nome-box">
-                <input type="text" id="" required>
-                <label>Nome completo</label>
+                <input type="text" name="name" placeholder="Nome" class="input-name" required>
+                <label></label>
             </div>
 
-            <div class="email">
-                <input type="email" id="" required>
-                <label>E-mail</label>
+            <div class="email-box">
+                <input type="email" name="email" placeholder="E-mail" class="input-name" required>
+                <label></label>
             </div>
 
-            <div class="senha">
-                <input type="password" id="" minlength="8" required>
-                <label>Senha</label>
+            <div class="phone-box">
+                <input type="tel" name="number" placeholder="(xx) xxxxx-xxxx" class="input-name" required>
+                <label></label>
+            </div>
+
+
+            <div class="password-box">
+                <input type="password" name="password"  placeholder="Senha" minlength="8" class="input-name" required>
+                <label></label>
             </div>
 
             <div class="confirme-pass">
-                <input type="password" id="" minlength="8" required>
-                <label>Confirme sua senha</label>
+                <input type="password" name="password" placeholder="Confirme sua senha" minlength="8" class="input-name" required>
+                <label></label>
             </div>
 
-            <a href="#">
+        
+            
+        <a class="create-button" href="#">CRIAR CONTA</a>
+        
+    
             <span></span>
             <span></span>
             <span></span>
-            Cadastre-se </a>
         </form>
     </div>
+
+    <!--<div class="footer">
+        <img src="img/fita-dark-experience.png">
+    </div>-->
 </body>
 </html>
