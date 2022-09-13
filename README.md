@@ -24,7 +24,7 @@ Entretanto, ainda possuo uma certa dificuldade no que diz respeito a responsivid
 No mais, realizei esse projeto como um desafio pessoal, afim de aplicar meus conhecimentos em HTML e CSS.
 
 
-        🚧 Encontra-se em construção...  🚧 
+  🚧 Encontra-se em construção...  🚧 
 
 
 ## Features ⚙️
@@ -37,7 +37,7 @@ Pode ser usado como modelo para futuras aplicações.
 
   [x] Esqueceu a senha?
 
-## Cores utilizadas  🌈
+## Cores utilizadas neste projeto 🌈
 
 
 | Cor               | Hexadecimal                                                |
